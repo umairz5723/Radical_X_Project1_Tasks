@@ -1,0 +1,605 @@
+
+.bottom-frame {
+    /* Auto layout */
+
+    left: 0px;
+    top: 294px;
+    border-radius: 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 1135px;
+    height: 536px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    
+}
+
+.internship-tab {
+    height: 536px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.internship-tab-title{
+    height: 56px;
+    width: 385px;
+    left: 0px;
+    top: 0px;
+    border-radius: [object Object]px;
+    padding: 16px 12px 16px 12px;
+    justify: space-between;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px 12px;
+gap: 56px;
+
+width: 385px;
+height: 56px;
+
+background: #F6F5F9;
+border-radius: 20px 0px 0px 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+}
+
+    .internship-row {
+        height: 96px;
+    width: 385px;
+    left: 0px;
+    top: 56px;
+    border-radius: 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+
+    width: 385px;
+    height: 96px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.internship-row-title {
+    height: 24px;
+    width: 195px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Text/Text - 01 */
+
+    color: #2F3031;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+.internship-row-description{
+    width: 195px;
+    height: 32px;
+    left: 0px;
+    top: 32px;
+    border-radius: nullpx;
+    margin-top:10px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Text/Text - 01 */
+
+    color: #2F3031;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.completion-tab {
+    height: 536px;
+    width: 200px;
+    left: 385px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 200px;
+    height: 536px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.completion-tab-title {
+    height: 56px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 16px 12px 16px 12px;
+    justify: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 56px;
+
+    width: 200px;
+    height: 56px;
+
+    background: #F6F5F9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+
+}
+
+.completion-tab-row {
+    height: 96px;
+    width: 200px;
+    left: 0px;
+    top: 56px;
+    border-radius: 0px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+.completion-tab-row-period {
+    height: 20px;
+    width: 136px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.completion-tab-row-created{
+
+
+
+    left: 0px;
+    top: 24px;
+    border-radius: nullpx;
+
+    width: 137px;
+    height: 16px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 3 */
+
+    color: #828282;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.total-enrolled-tab {
+    height: 536px;
+    width: 160px;
+    left: 585px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 160px;
+    height: 536px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  
+
+}
+
+.total-enrolled-title {
+    height: 56px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 16px 12px 16px 12px;
+    justify: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 56px;
+    
+    width: 160px;
+    height: 56px;
+    
+    background: #F6F5F9;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.total-enrolled-row {
+
+    height: 96px;
+    width: 160px;
+    left: 0px;
+    top: 56px;
+    border-radius: 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    
+    width: 160px;
+    height: 96px;
+    
+    /* Snow */
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+.total-enrolled-row-content {
+    height: 24px;
+    width: 62px;
+    left: 16px;
+    top: 8px;
+    border-radius: nullpx;
+    font-family: Space Grotesk;
+    color: #793EF5;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 94px;
+    height: 40px;
+
+    background: #F0EFFD;
+    border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.qualified-tab {
+    height: 536px;
+    width: 250px;
+    left: 745px;
+    top: 0px;
+    border-radius: 0px;
+
+   
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 536px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.qualified-tab-title {
+  
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 16px 12px 16px 12px;
+    justify: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 56px;
+
+    width: 250px;
+    height: 56px;
+
+    background: #F6F5F9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.qualified-tab-row {
+    height: 96px;
+    width: 250px;
+    left: 0px;
+    top: 56px;
+    border-radius: 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    
+    width: 250px;
+    height: 96px;
+    
+    /* Snow */
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.qualified-tab-row-content {
+
+}
+
+.charts-tab {
+    height: 536px;
+    width: 140px;
+    left: 995px;
+    top: 0px;
+    border-radius: 0px;
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 140px;
+    height: 536px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+  
+
+}
+
+.charts-tab-title {
+    height: 56px;
+    width: 140px;
+    left: 0px;
+    top: 0px;
+    border-radius: [object Object]px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+
+    background: #F6F5F9;
+    border-radius: 0px 20px 0px 0px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.charts-tab-row {
+    height: 96px;
+    width: 140px;
+    left: 0px;
+    top: 56px;
+    border-radius: 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    
+    width: 140px;
+    height: 96px;
+    
+    /* Snow */
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.charts-tab-row-content {
+    height: 28px;
+    width: 108px;
+    left: 16px;
+    top: 34px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 108px;
+    height: 28px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border:black;
+    
+}

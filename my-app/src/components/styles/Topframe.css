@@ -1,0 +1,330 @@
+.topmid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 1200px;
+    height: 270px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ 
+}
+
+.top-box {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 626px;
+
+    width: 1135px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+
+}
+
+.insights-box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 280px;
+    height: 238px;
+    
+    /* Grey Light */
+    
+    background: #F6F5F9;
+    border-radius: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+.insights-box-title{
+    width: 248px;
+    height: 24px;
+    
+    /* Desktop/H5 */
+    
+    font-family: 'Eloquia Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    font-feature-settings: 'liga' off;
+    
+    /* Gray 1 */
+    
+    color: #333333;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.top-right-side-container {
+    height: 238px;
+    width: 813px;
+    left: 306px;
+    top: 16px;
+    border-radius: 0px;
+   
+
+}
+
+.insights-box-description {
+    width: 229px;
+    height: 120px;
+    
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+    
+    /* Dark */
+    
+    color: #1E1E1E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.filter-bar {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top:8px;
+    gap: 10px;
+    
+    width: 813px;
+    height: 48px;
+    
+    /* Gray 6 */
+    
+    background: #F2F2F2;
+    border-radius: 12px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ 
+}
+
+.this-week {
+    height: 32px;
+    width: 91px;
+    left: 0px;
+    top: 0px;
+    background: #793EF5;
+    border-radius: 8px;
+    padding: 6px 12px 6px 12px;
+
+
+    
+}
+
+.this-week-text {
+    width: 67px;
+    height: 20px;
+    width: 67px;
+    left: 12px;
+    top: 6px;
+    border-radius: nullpx;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Snow */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.this-month {
+    height: 32px;
+    width: 100px;
+    left: 103px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 6px 12px 6px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    gap: 8px;
+
+    width: 100px;
+    height: 32px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+.select-dates {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    gap: 8px;
+
+    width: 100px;
+    height: 32px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 450px;
+}
+
+.select-dates-text {
+    width: 76px;
+    height: 20px;
+    
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    
+    /* Dark */
+    
+    color: #1E1E1E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.graph-div {
+    
+    height: 174px;
+    width: 100%;
+    left: 12px;
+    top: 64px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    background: blue;
+}
+
+.line-90 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 144.04px;
+    top: 64px;
+
+    border: 2px solid #EFEFEF;
+    transform: rotate(90deg);
+}
+
+.line-91 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 540.17px;
+    top: 64px;
+
+    border: 2px solid #EFEFEF;
+    transform: rotate(90deg);
+}
+
+.line-92 {
+    position: relative;
+    width: 150px;
+    height: 0px;
+    left: 672.22px;
+    top: 64px;
+
+    border: 2px solid #EFEFEF;
+    transform: rotate(90deg);
+}
